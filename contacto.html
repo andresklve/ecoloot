@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoLoot · Contacto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/css/styles.css"/>
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-brand"><img src="images/logo.png" alt="EcoLoot" class="nav-logo"/> Eco<span class="eco">Loot</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="proceso.html">Proceso</a></li>
+      <li><a href="alianzas.html">Alianzas</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="contacto.html" class="active">Contacto</a></li>
+    </ul>
+    <a href="contacto.html" class="nav-cta">Únete ↗</a>
+    <button class="nav-burger" aria-label="Menú"><span></span><span></span><span></span></button>
+  </nav>
+
+  <header class="page-hero">
+    <span class="glow-a"></span><span class="glow-b"></span>
+    <div class="wrap">
+      <div class="contact-hero-grid">
+        <div>
+          <span class="eyebrow on-dark" data-reveal><span class="pip"></span>Contacto</span>
+          <h1 data-reveal data-reveal-delay="1">Hablemos de<br>reciclar <span class="lima-text">Lima</span><br>juntos</h1>
+          <p class="lead" data-reveal data-reveal-delay="2">¿Quieres ser aliado, instalar una máquina en tu local o saber más de EcoLoot? Escríbenos — respondemos rápido.</p>
+        </div>
+        <div class="contact-info">
+          <div class="cinfo" data-reveal><div class="ci-ic">📍</div><div class="ci-tx"><strong>Lima, Perú</strong><span>UPC Monterrico · Lima Metropolitana</span></div></div>
+          <div class="cinfo" data-reveal data-reveal-delay="1"><div class="ci-ic">✉️</div><div class="ci-tx"><strong>ecoloot@upc.edu.pe</strong><span>Respondemos en menos de 24 horas</span></div></div>
+          <div class="cinfo" data-reveal data-reveal-delay="2"><div class="ci-ic">📱</div><div class="ci-tx"><strong>@EcoLootPeru</strong><span>Instagram · LinkedIn</span></div></div>
+          <div class="cinfo" data-reveal data-reveal-delay="3"><div class="ci-ic">🕐</div><div class="ci-tx"><strong>Lun a Vie · 9 am – 7 pm</strong><span>Horario de atención</span></div></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" style="background:var(--cloud);">
+    <div class="wrap">
+      <div class="contact-main">
+        <div class="contact-side" data-reveal>
+          <h2>¿Por qué<br>escribirnos a <span class="eco-text">nosotros</span>?</h2>
+          <p>Somos un equipo joven y respondemos directamente. Sin bots, sin esperas de semanas. Si tienes algo que aportarle a EcoLoot, queremos escucharte.</p>
+          <div class="reasons">
+            <div class="reason" data-value="Quiero ser aliado/marca"><span class="rdot"></span>Quiero ser una marca aliada</div>
+            <div class="reason" data-value="Instalar máquina EcoLoot"><span class="rdot"></span>Quiero instalar una máquina EcoLoot</div>
+            <div class="reason" data-value="Municipalidad interesada"><span class="rdot"></span>Soy una municipalidad interesada</div>
+            <div class="reason" data-value="Pregunta sobre el proceso"><span class="rdot"></span>Tengo una pregunta sobre el proceso</div>
+            <div class="reason" data-value="Otro"><span class="rdot"></span>Solo quiero saber más del proyecto</div>
+          </div>
+        </div>
+        <div class="form-card" data-reveal data-reveal-delay="1">
+          <h3>Envíanos un mensaje ✉️</h3>
+          <form id="contact-form">
+            <div class="field-row">
+              <div class="field"><label>Nombre</label><input type="text" placeholder="Tu nombre" required/></div>
+              <div class="field"><label>Apellido</label><input type="text" placeholder="Tu apellido" required/></div>
+              <div class="field"><label>Correo</label><input type="email" placeholder="correo@ejemplo.com" required/></div>
+              <div class="field"><label>Teléfono (opcional)</label><input type="tel" placeholder="+51 9XX XXX XXX"/></div>
+              <div class="field full"><label>Motivo de contacto</label><select required><option value="" disabled selected>Selecciona una opción</option><option>Quiero ser aliado/marca</option><option>Instalar máquina EcoLoot</option><option>Municipalidad interesada</option><option>Pregunta sobre el proceso</option><option>Otro</option></select></div>
+              <div class="field full"><label>Mensaje</label><textarea placeholder="Cuéntanos en qué podemos ayudarte..." required></textarea></div>
+            </div>
+            <button type="submit" class="btn btn-lima form-submit">Enviar mensaje <span class="arrow">→</span></button>
+            <div class="toast" id="toast">✅ ¡Mensaje enviado! Te escribimos pronto.</div>
+            <p class="form-note">Al enviar aceptas que EcoLoot use tus datos solo para responderte. Sin spam, prometido.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head center" data-reveal>
+        <span class="eyebrow" style="justify-content:center;"><span class="pip"></span>Dónde estamos</span>
+        <h2 class="title">Máquinas EcoLoot en Lima</h2>
+      </div>
+      <div class="zones">
+        <div class="zone" data-reveal><span class="z-ic">🏙️</span><h4>Miraflores</h4><p>Centros comerciales, parques y zonas de alto tránsito.</p><span class="z-status live"><span class="sd"></span>Activo</span></div>
+        <div class="zone" data-reveal data-reveal-delay="1"><span class="z-ic">🏘️</span><h4>Surco</h4><p>Universidades, food courts y estaciones de transporte.</p><span class="z-status live"><span class="sd"></span>Activo</span></div>
+        <div class="zone" data-reveal data-reveal-delay="2"><span class="z-ic">🏢</span><h4>San Isidro</h4><p>Zona empresarial, cafeterías y espacios públicos.</p><span class="z-status live"><span class="sd"></span>Activo</span></div>
+        <div class="zone" data-reveal><span class="z-ic">🌆</span><h4>San Borja</h4><p>Ampliación planificada según resultados de la fase piloto.</p><span class="z-status soon"><span class="sd"></span>Próximamente</span></div>
+        <div class="zone" data-reveal data-reveal-delay="1"><span class="z-ic">🏙️</span><h4>La Molina</h4><p>Zonas residenciales y centros comerciales del este.</p><span class="z-status soon"><span class="sd"></span>Próximamente</span></div>
+        <div class="zone" data-reveal data-reveal-delay="2"><span class="z-ic">📍</span><h4>¿Tu distrito?</h4><p>¿Quieres EcoLoot en tu zona? Escríbenos y lo evaluamos.</p><span class="z-status soon"><span class="sd"></span>Escríbenos</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="fb-logo-img"><img src="images/logo.png" alt="EcoLoot" class="footer-logo"/><span>Eco<span class="dot">Loot</span></span></a>
+          <p>Sistema de recompensas para la recolección de residuos reciclables en zonas urbanas del Perú. Hecho por estudiantes de la UPC · 2026.</p>
+        </div>
+        <div class="footer-col"><h5>Explorar</h5><ul><li><a href="index.html">Inicio</a></li><li><a href="proceso.html">Proceso</a></li><li><a href="alianzas.html">Alianzas</a></li><li><a href="nosotros.html">Nosotros</a></li></ul></div>
+        <div class="footer-col"><h5>Zonas</h5><ul><li><a href="contacto.html">Miraflores</a></li><li><a href="contacto.html">Surco</a></li><li><a href="contacto.html">San Isidro</a></li><li><a href="contacto.html">Próximamente</a></li></ul></div>
+        <div class="footer-col"><h5>Contacto</h5><ul><li><a href="contacto.html">Ser aliado</a></li><li><a href="contacto.html">Instalar máquina</a></li><li><a href="contacto.html">Escríbenos</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 EcoLoot · UPC · Todos los derechos reservados</p>
+        <span class="footer-status"><span class="ldot"></span>Activo en Lima Metropolitana</span>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
