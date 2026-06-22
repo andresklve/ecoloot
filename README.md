@@ -1,59 +1,81 @@
-# EcoLoot 🌱
+# EcoLoot
 
-Sistema de recompensas para la recolección de residuos reciclables en zonas urbanas del Perú.
+## Descripcion del proyecto
 
-EcoLoot conecta a los ciudadanos de Lima con máquinas inteligentes de reciclaje y los recompensa con descuentos reales en sus marcas favoritas. Reciclar ya no es un sacrificio — es una jugada que siempre gana.
+EcoLoot es una landing page academica orientada a presentar una solucion digital de recompensas para la recoleccion de residuos reciclables en zonas urbanas del Peru. La propuesta busca conectar a ciudadanos con maquinas inteligentes de reciclaje y ofrecer incentivos por participar en practicas sostenibles.
 
----
+EcoLoot conecta a los ciudadanos de Lima con maquinas inteligentes de reciclaje y los recompensa con descuentos reales en sus marcas favoritas. Reciclar ya no es un sacrificio: es una accion sostenible que tambien genera beneficios.
 
-## 🎯 Misión
+## Mision
 
-Transformar el comportamiento de reciclaje en Lima mediante tecnología, gamificación y alianzas reales con marcas reconocidas.
+Transformar el comportamiento de reciclaje en Lima mediante tecnologia, gamificacion y alianzas reales con marcas reconocidas.
 
----
+## Autores
 
-## 👥 Integrantes
+- Carlos Andres Infantas Galindo - Ing. Sistemas
+- Orlando Felix Monzon - Ing. Sistemas
+- Mathias Fabian Peralta Marquina - Ing. Sistemas
+- Bertha Maria Morales Espinoza - Ing. Software
+- Luis Angel Espiritu Tolentino - Ing. Sistemas
+- Duzka Macedo De La Cruz - Ing. Sistemas
 
-- Carlos Andres Infantas Galindo — Ing. Sistemas
-- Orlando Félix Monzón — Ing. Sistemas
-- Mathias Fabian Peralta Marquina — Ing. Sistemas
-- Bertha María Morales Espinoza — Ing. Software
-- Luis Angel Espiritu Tolentino — Ing. Sistemas
-- Duzka Macedo De La Cruz — Ing. Sistemas
+## Segmentos objetivo
 
----
+- Ciudadanos interesados en reciclar y obtener recompensas.
+- Personas que buscan descuentos o beneficios por acciones sostenibles.
+- Municipalidades, instituciones o aliados interesados en promover el reciclaje.
+- Comercios o marcas que podrian participar como aliados del sistema de recompensas.
 
-## 📁 Estructura
+## Principales caracteristicas
 
+- Presentacion de la propuesta de valor de EcoLoot.
+- Secciones informativas sobre el problema, proceso, alianzas, nosotros y contacto.
+- Landing page desarrollada con HTML, CSS y JavaScript.
+- Organizacion de assets por tipo de recurso.
+- Preparacion del proyecto para control de versiones y trabajo colaborativo.
+- Uso de flujo GitFlow con ramas main, develop y feature/*.
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+
+## Estructura del proyecto
+
+```text
+public/
+|-- index.html
+|-- favicon.ico
+|-- alianzas.html
+|-- contacto.html
+|-- nosotros.html
+|-- proceso.html
+`-- assets/
+    |-- styles/
+    |   `-- styles.css
+    |-- images/
+    `-- scripts/
+        `-- main.js
 ```
-ecoloot/
-├── index.html
-├── proceso.html
-├── alianzas.html
-├── nosotros.html
-├── contacto.html
-├── css/styles.css
-├── js/main.js
-└── images/
-```
 
----
+## Flujo de trabajo GitFlow
 
-## 🛠️ Stack
+- main: rama principal estable del proyecto.
+- develop: rama de integracion para avances del equipo.
+- feature/*: ramas de trabajo para funcionalidades o cambios especificos creados desde develop.
 
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Tipografía:** Space Grotesk, Inter
-- **Hosting:** Vercel
-- **Control de versiones:** Git & GitHub
+## Enlaces
 
----
+- Live: https://ecoloot.vercel.app
+- GitHub: https://github.com/andresklve/ecoloot
+- Email: ecoloot@upc.edu.pe
 
-## 🔗 Enlaces
+## Estado de entrega
 
-- **Live:** [ecoloot.vercel.app](https://ecoloot.vercel.app)
-- **GitHub:** [github.com/andresklve/ecoloot](https://github.com/andresklve/ecoloot)
-- **Email:** ecoloot@upc.edu.pe
-
----
-
-**Hecho con 💚 por estudiantes de Ingeniería de la UPC · 2026**
+- Repositorio publico en GitHub.
+- Ramas GitFlow preparadas.
+- Estructura public/assets organizada.
+- Pendiente manual: transferir el repositorio a una organizacion de GitHub.
+- Pendiente manual: generar PDF con el link del repositorio y un screenshot de GitHub Insights.
